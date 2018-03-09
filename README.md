@@ -8,10 +8,10 @@ The annexed *.py files located in this folder, are the requested deliverables of
 
 ### Deliverables
 
-* sonyParser.py (Main class with a method returning the top PS4 games)
-* sonyParserApp.py (Flask application; provides the requested API)
-* sonyParserAppTests.py (unit testing application)
-* requirements.txt (Provides all the necessary libraries)
+* **sonyParser.py** (Main class with a method returning the top PS4 games)
+* **sonyParserApp.py** (Flask application; provides the requested API)
+* **sonyParserAppTests.py** (unit testing application)
+* **requirements.txt** (Provides all the necessary libraries)
 
 
 ### Prerequisites
