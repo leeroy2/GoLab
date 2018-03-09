@@ -58,11 +58,28 @@ Web App for retrieving top PS4 games
 
 In order to view the top games as per [url](http://www.metacritic.com/game/playstation-4) please navigate to [this](http://localhost:5000/games) url
 
-To query a game as per its title browse to [http://localhost:5000/games/<title-of-game>](http://localhost:5000/games/<title-of-game>) where you have to replace the <title-of-game> with the desired game title
+To query a game as per its title browse to [http://localhost:5000/games/<title-of-game>](http://localhost:5000/games/title-of-game) where you have to replace the title-of-game with the desired game title
 
 ## Running the tests
 
-Unit testing required the service up n running. Before testing make sure that the application is up n running
+Unit testing required the service up n running. Before testing make sure that the application is up n running. Open a new command prompt and type:
+
+```
+python sonyParserAppTests.py
+```
+
+You should see the following output
+
+```
+......
+----------------------------------------------------------------------
+Ran 6 tests in 5.610s
+
+OK
+
+```
+
+ 
 
 ### Break down into end to end tests
 
